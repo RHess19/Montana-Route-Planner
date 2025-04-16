@@ -14,3 +14,11 @@ CSS
 JavaScript (limited - mainly for API calls and parsing)
 PHP
 MySQL
+
+
+INSTALLATION GUIDE:
+
+1. The contents of the MontanaRoutePlanner folder should be placed at the root level of the web server (in my case, the www folder of AMPPS).
+2. For the purpose of easy installation, we are keepign the default phpMyAdmin user (U: root, P: mysql). If you would like to change the credentials, you are free to do so; however, you must remember to change the credentials in the PHP files.
+3. Log in to phpMyAdmin (or similar DB interface) and run the code contained in generateTables.sql to set up the DB structure and contents.
+4. Access the project from index.php.
